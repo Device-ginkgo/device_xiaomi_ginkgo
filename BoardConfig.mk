@@ -19,6 +19,9 @@ TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 ODM_MANIFEST_WILLOW_FILES := $(DEVICE_PATH)/configs/hidl/manifest_willow.xml
