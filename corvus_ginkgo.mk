@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 RevengeOS
+# Copyright (C) 2020 CorvusOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common RevengeOS stuff
+# Inherit some common CorvusOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := revengeos_ginkgo
+PRODUCT_NAME := corvus_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8

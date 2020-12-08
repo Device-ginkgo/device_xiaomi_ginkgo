@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 RevengeOS
+# Copyright (C) 2020 CorvusOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ginkgo.mk
+    $(LOCAL_DIR)/corvus_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ginkgo-user \
-    revengeos_ginkgo-userdebug \
-    revengeos_ginkgo-eng
+    corvus_ginkgo-user \
+    corvus_ginkgo-userdebug \
+    corvus_ginkgo-eng
