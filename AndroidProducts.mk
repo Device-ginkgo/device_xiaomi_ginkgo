@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 CorvusOS
+# Copyright (C) 2020 AncientOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_ginkgo.mk
+    $(LOCAL_DIR)/ancient_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_ginkgo-user \
-    corvus_ginkgo-userdebug \
-    corvus_ginkgo-eng
+    ancient_ginkgo-user \
+    ancient_ginkgo-userdebug \
+    ancient_ginkgo-eng
