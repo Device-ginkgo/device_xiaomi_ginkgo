@@ -14,7 +14,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    NotchBarKiller
+    NotchBarKiller \
+    GinkgoMiuiCamera
 
 # Audio
 PRODUCT_COPY_FILES += \
