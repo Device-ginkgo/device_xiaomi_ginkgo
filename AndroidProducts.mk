@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 CorvusOS
+# Copyright (C) 2020 PixelExperience-project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_ginkgo-user \
-    corvus_ginkgo-userdebug \
-    corvus_ginkgo-eng
+    aosp_ginkgo-user \
+    aosp_ginkgo-userdebug \
+    aosp_ginkgo-eng
