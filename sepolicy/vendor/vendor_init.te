@@ -1,3 +1,27 @@
 set_prop(vendor_init, vendor_persist_camera_prop)
 set_prop(vendor_init, vendor_camera_prop)
 set_prop(vendor_init, vendor_video_prop)
+allow vendor_init persist_debug_prop:file { read };
+allow vendor_init default_prop:file { read };
+allow vendor_init wifi_prop:file { read };
+allow vendor_init bluetooth_prop:file { read };
+allow vendor_init powerctl_prop:file { read };
+allow vendor_init radio_prop:file { read };
+allow vendor_init system_data_file:dir { create };
+allow vendor_init system_data_file:dir { write };
+allow vendor_init system_data_file:dir { add_name };
+allow vendor_init system_data_file:dir { setattr };
+allow vendor_init camera_data_file:dir { create };
+allow vendor_init camera_data_file:dir { getattr };
+allow vendor_init camera_data_file:dir { setattr };
+allow vendor_init media_rw_data_file:dir { getattr };
+allow vendor_init dhcp_data_file:dir { setattr };
+allow vendor_init vendor_dpmd_data_file:dir { getattr };
+allow vendor_init vendor_dpmd_data_file:dir { setattr };
+allow vendor_init vendor_dpmd_data_file:dir { search };
+allow vendor_init vendor_dpmd_data_file:dir { write };
+allow vendor_init vendor_dpmd_data_file:dir { add_name };
+allow vendor_init vendor_dpmd_data_file:dir { create };
+allow vendor_init nfc_data_file:dir { getattr };
+allow vendor_init system_data_file:lnk_file { create };
+allow vendor_init ffs_prop:property_service { set };
