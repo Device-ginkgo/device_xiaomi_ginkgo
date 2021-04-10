@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ginkgo-user \
-    revengeos_ginkgo-userdebug \
-    revengeos_ginkgo-eng
+    aosp_ginkgo-user \
+    aosp_ginkgo-userdebug \
+    aosp_ginkgo-eng
