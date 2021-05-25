@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 DotOS
+# Copyright (C) 2020 havocOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_ginkgo.mk
+    $(LOCAL_DIR)/havoc_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_ginkgo-user \
-    dot_ginkgo-userdebug \
-    dot_ginkgo-eng
+    havoc_ginkgo-user \
+    havoc_ginkgo-userdebug \
+    havoc_ginkgo-eng
